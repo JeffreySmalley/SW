@@ -2,6 +2,9 @@
 float camX = 0.0;
 float camY = 0.0;
 float camZ = 0.0;
+
+Player player;
+HUD hud;
 void draw(){
 	//move the world around the player
 	glTranslatef(camX, camY, camZ);

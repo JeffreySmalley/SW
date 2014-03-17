@@ -3,8 +3,8 @@
 //uncomment to hide console
 //#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
-Player player;
-HUD hud;
+extern Player player;
+extern HUD hud;
 
 
 using namespace std;
